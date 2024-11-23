@@ -14,9 +14,11 @@ const App = () => {
             element={
               <div className="text-center">
                 <h1>Welcome to Student Management</h1>
-                <Link to="/list" className="btn btn-primary mt-3">
-                  Go to Student List
-                </Link>
+                <div className="mt-3">
+                  <Link to="/list" className="btn btn-primary me-2">
+                    Go to Student List
+                  </Link>
+                </div>
               </div>
             }
           />
